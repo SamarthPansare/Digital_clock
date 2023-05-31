@@ -1,0 +1,18 @@
+.body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url("stock-photo-142984111-1500x1000.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

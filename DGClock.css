@@ -1,18 +1,27 @@
 .body{
     display: flex;
-    height: 100%;
-    width: 100%;
     background-image: url("stock-photo-142984111-1500x1000.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
     
 }
 .container{
-    color: aliceblue;
+    color: rgb(4, 41, 73);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 400px;
+    height: 150px;
+    background: transparent;
+    box-shadow: 4px 5px 8px rgba(30, 36, 30, 1); 
+    border-radius: 16px;   
+    
+}
 
+.clock{
+    display: flex;
 }
